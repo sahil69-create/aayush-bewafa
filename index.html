@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Maria-Md | Professional WhatsApp Bot Solutions</title>
+    <meta name="description" content="Maria-Md is a modern, high-performance WhatsApp bot designed for efficiency and ease of use. Explore our repository, scan codes, and get support." />
+    <meta name="keywords" content="WhatsApp Bot, Maria-Md, Bot Development, Automation, GitHub Repository" />
+    <meta name="author" content="Ayush Pandey" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Maria-Md | Professional WhatsApp Bot Solutions" />
+    <meta property="og:description" content="Modern WhatsApp bot automation for your daily tasks. Host it yourself or use our public bot." />
+    <meta property="og:image" content="./assets/Bot.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="./assets/Bot.jpg" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav" aria-label="Main Navigation">
+        <div class="logo">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="9" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M9 15H9.01M15 15H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7 9V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V9" stroke="currentColor" stroke-width="2"/>
+            <path d="M2 13H1M22 13H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>Maria-Md</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="pages/bot.html">Info</a></li>
+          <li><a href="https://maria-pair-code.onrender.com" target="_blank" rel="noopener">Scan</a></li>
+          <li><a href="pages/repo.html">Repo</a></li>
+          <li><a href="pages/support.html">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav id="hamburger-nav" aria-label="Mobile Navigation">
+        <div class="logo">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="9" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M9 15H9.01M15 15H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7 9V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V9" stroke="currentColor" stroke-width="2"/>
+            <path d="M2 13H1M22 13H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>Maria-Md</span>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()" role="button" aria-label="Toggle Menu" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <li><a href="pages/bot.html" onclick="toggleMenu()">Info</a></li>
+            <li><a href="https://maria-pair-code.onrender.com" onclick="toggleMenu()" target="_blank" rel="noopener">Scan</a></li>
+            <li><a href="pages/repo.html" onclick="toggleMenu()">Repo</a></li>
+            <li><a href="pages/support.html" onclick="toggleMenu()">Support</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/Bot.jpg" alt="Maria-Md Bot Avatar" loading="lazy" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Efficient. Reliable. Smart.</p>
+          <h1 class="title">Maria-Md</h1>
+          <p class="section__text__p2">The Next-Gen WhatsApp Bot</p>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('https://api.whatsapp.com/send?phone=43699377774449&text=!help', '_blank')">
+              Chat with Maria
+            </button>
+            <button class="btn btn-color-2" onclick="location.href='#contact'">
+              Get Support
+            </button>
+          </div>
+          <div id="socials-container">
+            <!-- WhatsApp SVG Icon -->
+            <svg class="icon" onclick="window.open('https://api.whatsapp.com/send?phone=919931122319&text=Hello+Dev+Ayush+🤖', '_blank')" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.029c0 2.119.554 4.188 1.606 6.01L0 24l6.124-1.606a11.845 11.845 0 005.92 1.586h.005c6.635 0 12.031-5.396 12.034-12.032a11.79 11.79 0 00-3.541-8.508z"/>
+            </svg>
+            <!-- GitHub SVG Icon -->
+            <svg class="icon" onclick="window.open('https://github.com/AYUSH-PANDEY023/Maria-Md', '_blank')" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <p class="section__text__p1">Meet the Minds Behind</p>
+        <h2 class="title">Bot Developers</h2>
+        <div class="section-container">
+          <article class="details-container">
+            <img src="./assets/Ayush.png" alt="Ayush Pandey - Lead Developer" class="project-img" loading="lazy" />
+            <h3 class="experience-sub-title project-title">Ayush Pandey</h3>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('https://github.com/AYUSH-PANDEY023', '_blank')">
+                GitHub
+              </button>
+              <button class="btn btn-color-1" onclick="window.open('https://api.whatsapp.com/send?phone=919931122319', '_blank')">
+                Contact
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <p class="section__text__p1">Available 24/7</p>
+        <h2 class="title">Get in Touch</h2>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.029c0 2.119.554 4.188 1.606 6.01L0 24l6.124-1.606a11.845 11.845 0 005.92 1.586h.005c6.635 0 12.031-5.396 12.034-12.032a11.79 11.79 0 00-3.541-8.508z"/>
+          </svg>
+          <p><a href="https://api.whatsapp.com/send?phone=+919931122319" target="_blank" rel="noopener">Official WhatsApp</a></p>
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo" style="justify-content: center; margin-bottom: 1rem;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="9" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+          <path d="M9 15H9.01M15 15H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M7 9V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V9" stroke="currentColor" stroke-width="2"/>
+          <path d="M2 13H1M22 13H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>Maria-Md</span>
+      </div>
+      <p>Copyright &#169; 2023 Maria-Md Bot. All Rights Reserved.</p>
+      <p>Designed with ❤️ for the Community</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
