@@ -1,0 +1,37 @@
+/* MODERN RESPONSIVE OVERRIDES */
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 3rem 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.1rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* ACCESSIBILITY: FOCUS STATES */
+a:focus, button:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
+}
